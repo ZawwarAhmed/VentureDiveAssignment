@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ZawwarAhmed/VentureDiveAssignment/issues"
   },
-  "homepage": "https://github.com/ZawwarAhmed/VentureDiveAssignment#readme"
+  "homepage": "https://github.com/ZawwarAhmed/VentureDiveAssignment#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
 }
