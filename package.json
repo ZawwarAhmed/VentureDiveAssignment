@@ -1,0 +1,22 @@
+{
+  "name": "venturediveassignment",
+  "version": "1.0.0",
+  "description": "1. Even Challenge    This task is to evaluate your understanding of loops in JavaScript. Write a program that contains a variable named \"limit\", which will be a positive number, the program should then print even numbers from 0 up to the number defined in \"limit\".    Example: If the limit is set to 10, the program should output the following: 0 2 4 6 8 10",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZawwarAhmed/VentureDiveAssignment.git"
+  },
+  "author": "Zawwar Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZawwarAhmed/VentureDiveAssignment/issues"
+  },
+  "homepage": "https://github.com/ZawwarAhmed/VentureDiveAssignment#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
