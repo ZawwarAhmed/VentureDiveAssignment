@@ -1,10 +1,9 @@
-const weight = 50;
-const height = 3;
-
-function BMI(weight, height) {
-  console.log((weight / (height * height)).toFixed(3));
+function getBMI(weight, height) {
+  if (height <= 0) return "height should be greater than zero." 
+  if (weight <= 0) return "weight should be greater than zero."
+  return parseFloat((weight / (height * height)).toFixed(3));
 }
 
-BMI(weight, height);
+console.log(getBMI(0, 10));
 
-module.exports = BMI;
+module.exports = getBMI;
