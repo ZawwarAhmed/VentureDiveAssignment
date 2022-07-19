@@ -1,4 +1,4 @@
-const floydsTriangle = require("../Tasks/FloydsTriangle");
+const floydsTriangle = require("../Tasks/floydsTriangleGenerator");
 
 it(`If the n is 5, then the program should print 
     *     
