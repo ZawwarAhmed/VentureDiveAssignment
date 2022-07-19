@@ -1,6 +1,5 @@
-const n = 5;
-
 function floydsTriangle(n) {
+  if (n < 0) return "n should be greater than zero."
   let result = "";
   for (let i = 1; i <= n; i++) {
     for (let j = 0; j < i; j++) {
@@ -8,9 +7,7 @@ function floydsTriangle(n) {
     }
     if (i < n) result += "\n";
   }
-  console.log(result);
+  return result;
 }
-
-floydsTriangle(n);
 
 module.exports = floydsTriangle;
