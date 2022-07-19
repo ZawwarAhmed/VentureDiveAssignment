@@ -1,23 +1,23 @@
 const floydsTriangle = require("../../Tasks/Assignment 1/floydsTriangleGenerator");
 
-expect(`If the n is 5, then the program should print 
+test(`If the n is 5, then the program should print 
     *     
     *     *     
     *     *     *     
     *     *     *     *     
     *     *     *     *     *     
 `, () => {
-  console.log = jest.fn();
   const n = 5;
-  floydsTriangle(n);
-  expect(console.log.mock.calls[0][0]).toBe(`*     
+  
+  expect(
+    floydsTriangle(n)).toBe(`*     
 *     *     
 *     *     *     
 *     *     *     *     
 *     *     *     *     *     `);
 });
 
-it(`If the n is 10, then the program should print 
+test(`If the n is 10, then the program should print 
     *     
     *     *     
     *     *     *     
@@ -31,8 +31,7 @@ it(`If the n is 10, then the program should print
 `, () => {
   console.log = jest.fn();
   const n = 10;
-  floydsTriangle(n);
-  expect(console.log.mock.calls[0][0]).toBe(`*     
+  expect(floydsTriangle(n)).toBe(`*     
 *     *     
 *     *     *     
 *     *     *     *     
@@ -42,4 +41,18 @@ it(`If the n is 10, then the program should print
 *     *     *     *     *     *     *     *     
 *     *     *     *     *     *     *     *     *     
 *     *     *     *     *     *     *     *     *     *     `);
+});
+
+test(`If the n is 0, then the function will return: ""`, () => {
+  const n = 0;
+  
+  expect(
+    floydsTriangle(n)).toBe("");
+});
+
+test(`If the n is -1, then the function will return: "n should be greater than zero."`, () => {
+  const n = -1;
+  
+  expect(
+    floydsTriangle(n)).toBe("n should be greater than zero.");
 });
