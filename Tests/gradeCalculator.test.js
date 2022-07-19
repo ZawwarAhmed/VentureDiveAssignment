@@ -1,4 +1,4 @@
-const getGrade = require("../Tasks/GradeAssignment")
+const getGrade = require("../Tasks/gradeCalculator")
 
 test("If score is b/w 85-100, then the grade should be A+", () => {
     expect(getGrade(88)).toBe("A+")
