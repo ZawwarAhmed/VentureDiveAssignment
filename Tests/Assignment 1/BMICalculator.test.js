@@ -1,4 +1,4 @@
-const getBMI = require("../Tasks/BMICalculator");
+const getBMI = require("../../Tasks/Assignment 1/BMICalculator");
 
 test("If the weight is 50 and the height is 3, the function will return 5.556.", () => {
   const weight = 50;

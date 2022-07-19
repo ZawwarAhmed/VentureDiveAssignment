@@ -1,4 +1,4 @@
-const getEvenNumbers = require("../Tasks/evenNumberGenerator");
+const getEvenNumbers = require("../../Tasks/Assignment 1/evenNumberGenerator");
 
 test("If the limit is set to 10, the function will return the following: [0, 2, 4, 6, 8, 10]", () => {
   expect(getEvenNumbers(10)).toStrictEqual([0, 2, 4, 6, 8, 10]);

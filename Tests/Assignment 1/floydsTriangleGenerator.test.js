@@ -1,6 +1,6 @@
-const floydsTriangle = require("../Tasks/floydsTriangleGenerator");
+const floydsTriangle = require("../../Tasks/Assignment 1/floydsTriangleGenerator");
 
-it(`If the n is 5, then the program should print 
+expect(`If the n is 5, then the program should print 
     *     
     *     *     
     *     *     *     
