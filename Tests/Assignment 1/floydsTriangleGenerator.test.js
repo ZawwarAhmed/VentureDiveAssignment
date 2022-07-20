@@ -13,7 +13,8 @@ test(`If the n is 5, then the program should print
 *     *     
 *     *     *     
 *     *     *     *     
-*     *     *     *     *     `);
+*     *     *     *     *     
+`);
 });
 
 test(`If the n is 10, then the program should print 
@@ -39,7 +40,8 @@ test(`If the n is 10, then the program should print
 *     *     *     *     *     *     *     
 *     *     *     *     *     *     *     *     
 *     *     *     *     *     *     *     *     *     
-*     *     *     *     *     *     *     *     *     *     `);
+*     *     *     *     *     *     *     *     *     *     
+`);
 });
 
 test(`If the n is 0, then the function will throw: "n should be greater than zero."`, () => {
