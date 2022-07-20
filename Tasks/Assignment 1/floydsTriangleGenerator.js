@@ -2,14 +2,11 @@ function getTriangle(n) {
   if (n <= 0) throw new Error("n should be greater than zero.");
   else {
     let result = "";
-    let j = n - 1;
-    for (let i = 1; i <= n - j; i++) {
-      result += "*     ";
-      if (i < n && i === n - j) {
-        result += "\n";
-        i = 0;
-        j--;
-      }
+    const Asterisk = "*     ";
+    let patternStr = "";
+    for (let i = 1; i <= n; i++) {
+      patternStr += Asterisk;
+      result += patternStr + "\n";
     }
     return result;
   }
