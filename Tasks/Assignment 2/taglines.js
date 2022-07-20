@@ -22,8 +22,8 @@ var taglines = [
 ];
 
 function createSuperHero(hero) {
-  const heroObject = taglines.find((tagline) => tagline.name === hero);
-  if (heroObject) return () => `${heroObject.name} | ${heroObject.tagline}`;
+  const superhero = taglines.find((tagline) => tagline.name === hero);
+  if (superhero) return () => `${superhero.name} | ${superhero.tagline}`;
   else throw new Error("hero not found.");
 }
 
