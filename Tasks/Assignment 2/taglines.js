@@ -27,7 +27,4 @@ function createSuperHero(hero) {
   else throw new Error("hero not found.");
 }
 
-// var mySuperHero = createSuperHero("Ironman");
-// console.log(mySuperHero()); // Wolverine | Bub.
-
 module.exports = createSuperHero;
