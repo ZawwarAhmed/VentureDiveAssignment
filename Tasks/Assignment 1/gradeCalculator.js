@@ -43,7 +43,7 @@ const gradingCriteria = [
 
 function getGrade(score) {
     let result = gradingCriteria.find(item => score >= item.from && score <= item.to);
-    if (result !== undefined) 
+    if (result) 
     return result.grade;
     else 
     throw new Error("Score should be between 0 and 100.")
