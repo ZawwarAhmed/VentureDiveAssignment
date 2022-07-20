@@ -34,3 +34,51 @@
    *     *     *     *
    *     *     *     *     *
    ```
+
+
+## Assignment Week 2
+//////////////
+//  JSF002  //
+//////////////
+| Arrays | Objects | Loops | Scoping | Closures |
+
+1. Write a function that would allow you to do this.
+
+var addFive = createBase(5);
+addFive(10); // returns 15
+addFive(21); // returns 26
+
+2. Using the below array, write a function that returns a closure and outputs the corresponding tagline.
+
+// Sample array //
+
+  var taglines = [
+    {
+      name: 'Spiderman',
+      tagline: 'With great power, comes great responsibility.'
+    },
+    {
+      name: 'Hulk',
+      tagline: 'Don\'t make me angry. You wouldn\'t like me when I\'m angry.'
+    },
+    {
+      name: 'Batman',
+      tagline: 'Error! Batman is not a superhero. Fight me!'
+    },
+    {
+      name: 'Wolverine',
+      tagline: 'Bub.'
+    },
+    {
+      name: 'Captain America',
+      tagline: 'Language!'
+    },
+  ];
+
+// Call and Output //
+var mySuperHero = createSuperHero('Wolverine');
+console.log(mySuperHero()); // Wolverine | Bub.
+
+So when creating a super hero Wolverine, the output should be "Wolverine | Bub."
+
+Self Study: You also need to check out string.toLowerCase() predefined function for string manipulation.
