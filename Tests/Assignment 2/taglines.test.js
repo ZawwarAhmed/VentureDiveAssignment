@@ -30,8 +30,3 @@ test("if hero is Captain America, then the function should return the following:
   const mySuperHero = createSuperHero("Captain America");
   expect(mySuperHero()).toBe("Captain America | Language!");
 });
-
-test("if hero is Ironman (which is not in the array), then the function should throw the following: hero not found.", () => {
-  const mySuperHero = createSuperHero("Ironman");
-  expect(() => {mySuperHero()}).toThrow("hero not found.");
-});
