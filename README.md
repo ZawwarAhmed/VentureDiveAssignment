@@ -12,24 +12,25 @@
 3. Grade Assignment
    You've been given a task to assign grade to score obtained by your student. For any student, grade depends upon how they score. Please refer to the chart below for grade and score criteria. Your program should have a function to calculate and return the grade based on the input provided as a paremeter.
    Example: If the score is 76, the program should output the following: A-
-    
-    | Grade | Score    |
-    | ----- | -------- |
-    | A+    | 85 - 100 |
-    | A     | 80 - 84  |
-    | A-    | 75 - 79  |
-    | B+    | 70 - 74  |
-    | B     | 65 - 69  |
-    | B-    | 60 - 64  |
-    | C     | 50 - 59  |
-    | F     | 0 - 50   |
+
+   | Grade | Score    |
+   | ----- | -------- |
+   | A+    | 85 - 100 |
+   | A     | 80 - 84  |
+   | A-    | 75 - 79  |
+   | B+    | 70 - 74  |
+   | B     | 65 - 69  |
+   | B-    | 60 - 64  |
+   | C     | 50 - 59  |
+   | F     | 0 - 50   |
 
 4. Write a program to print Floyd's triangle:
    Floyd's triangle consist of n number of natural number in a specific fashion.
    Example:
+   ```
    *
    *     *
    *     *     *
    *     *     *     *
    *     *     *     *     *
-
+   ```
