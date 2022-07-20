@@ -1,4 +1,4 @@
-const floydsTriangle = require("../../Tasks/Assignment 1/floydsTriangleGenerator");
+const getTriangle = require("../../Tasks/Assignment 1/floydsTriangleGenerator");
 
 test(`If the n is 5, then the program should print 
     *     
@@ -8,9 +8,8 @@ test(`If the n is 5, then the program should print
     *     *     *     *     *     
 `, () => {
   const n = 5;
-  
-  expect(
-    floydsTriangle(n)).toBe(`*     
+
+  expect(getTriangle(n)).toBe(`*     
 *     *     
 *     *     *     
 *     *     *     *     
@@ -31,7 +30,7 @@ test(`If the n is 10, then the program should print
 `, () => {
   console.log = jest.fn();
   const n = 10;
-  expect(floydsTriangle(n)).toBe(`*     
+  expect(getTriangle(n)).toBe(`*     
 *     *     
 *     *     *     
 *     *     *     *     
@@ -43,16 +42,16 @@ test(`If the n is 10, then the program should print
 *     *     *     *     *     *     *     *     *     *     `);
 });
 
-test(`If the n is 0, then the function will return: ""`, () => {
+test(`If the n is 0, then the function will throw: "n should be greater than zero."`, () => {
   const n = 0;
-  
-  expect(
-    floydsTriangle(n)).toBe("");
+
+  expect(() => {getTriangle(n)}).toThrow("n should be greater than zero.");
 });
 
-test(`If the n is -1, then the function will return: "n should be greater than zero."`, () => {
+test(`If the n is -1, then the function will throw: "n should be greater than zero."`, () => {
   const n = -1;
-  
-  expect(
-    floydsTriangle(n)).toBe("n should be greater than zero.");
+
+  expect(() => {
+    getTriangle(n);
+  }).toThrow("n should be greater than zero.");
 });
