@@ -4,6 +4,4 @@ function getBMI(weight, height) {
   return parseFloat((weight / (height * height)).toFixed(3));
 }
 
-console.log(getBMI(50, 3));
-
 module.exports = getBMI;
