@@ -91,3 +91,9 @@ Self Study: You also need to check out string.toLowerCase() predefined function 
 
 1. Create a constructor function called Hero That will accept 2 variables name and superpower as arguments.
     Use the Hero constructor to create an object myHero with the name 'Superman'.
+
+
+2. Create a constructor function called Hero That will accept the arguments name and occupation.
+    Use Hero.prototype to add a method whoAreYou that will return: My name is [the hero's name] and I am a [the hero's occupation].
+    Use the Hero constructor to create an object hero1 with the name Michaelangello and occupation Ninja.
+    Use the whoAreYou method to log to the console hero1's name and occupation.
