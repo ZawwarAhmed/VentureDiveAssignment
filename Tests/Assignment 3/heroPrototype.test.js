@@ -1,4 +1,4 @@
-const Hero = require("../../Tasks/Assignment 3/hero2");
+const Hero = require("../../Tasks/Assignment 3/heroPrototype");
 
 test("works", () => {
   const myHero = new Hero("Michaelangello", "Ninja");
