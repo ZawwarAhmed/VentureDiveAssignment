@@ -82,3 +82,12 @@ console.log(mySuperHero()); // Wolverine | Bub.
 So when creating a super hero Wolverine, the output should be "Wolverine | Bub."
 
 Self Study: You also need to check out string.toLowerCase() predefined function for string manipulation.
+
+## Assignment Week 3
+//////////////
+//  JSF003  //
+//////////////
+| Constructors | Prototypes | DOM |
+
+1. Create a constructor function called Hero That will accept 2 variables name and superpower as arguments.
+    Use the Hero constructor to create an object myHero with the name 'Superman'.
